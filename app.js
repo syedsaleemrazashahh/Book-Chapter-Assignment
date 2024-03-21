@@ -109,3 +109,35 @@ console.log(str3);
   // Output the result
   console.log(`Cost of one movie ticket is  ${ ticketPrice } `);
   console.log(`Cost of buying  ${numberOfTickets} tickets to a movie is ${ totalCost} `);
+
+  // Chapter no 6
+
+  // Question 1 
+let number = 10;
+document.write("The result value of a is: " + number + "<br/><br/>");
+
+++number;
+document.write("The value of ++a is: " + number + "<br/>");
+document.write("Now the value of a is: " + number + "<br/><br/>");
+
+number++;
+document.write("The value of a++ is: 11 <br/>");
+document.write("Now the value of a is: " + number + "<br/><br/>");
+
+--number;
+document.write("The value of --a is: " + number + "<br/>");
+document.write("Now the value of a is: " + number + "<br/><br/>");
+
+number--;
+document.write("The value of a-- is: 11 <br/>");
+document.write("Now the value of a is: " + number + "<br/><br/>");
+
+//  Question 2 
+let a = 2;
+let b = 1;
+--a;
+--a - --b;
+--a - --b + ++b;
+document.write("a is = " + a + "<br/>");
+document.write("b is = " + b + "<br/>");
+//--a - --b | || b | b--; 
