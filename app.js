@@ -4,7 +4,7 @@
 let username;
 
 // Question 2
-let myName = "Syed Abrar Ahmed Tirmizi";
+let myName = "Syed Saleem Raza";
 
 // Question 3
 let message = "Hello World";
@@ -36,11 +36,7 @@ alert("I'm trying to learn from the Book " + book);
 
 // Question 8
 document.getElementById("write").innerHTML =
-  "Yah! I can write HTML content throught JavaScript";
-
-// Question 9
-let design = "“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”";
-alert(design);
+  "Yah! I can write HTML content throught JavaScript"
 
 // Chapter no 4
 
@@ -80,8 +76,11 @@ document.getElementById("D").innerHTML = "Variable names are case sensitive";
 document.getElementById("E").innerHTML =
   "Variable names should not be JS keywords";
 
+<<<<<<< HEAD
   // Chapter no 6
 
+=======
+>>>>>>> de00620e65b930f198be15b962cb3911d007bc37
   // Question 1 
 let number = 10;
 document.write("The result value of a is: " + number + "<br/><br/>");
