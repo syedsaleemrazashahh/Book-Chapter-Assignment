@@ -66,49 +66,19 @@ let my_name;
 
 // Question 3
 
-
 document.getElementById("heading").innerHTML =
   "“Rules for naming JS variables”";
-
 
 document.getElementById("B").innerHTML =
   "Variable names can only contain , numbers, S and _ . For example : $my_1stVariable";
 
-
 document.getElementById("C").innerHTML =
   "Variables must begin with a letter, $ or _ . For example : $name, _name or name";
 
-
 document.getElementById("D").innerHTML = "Variable names are case sensitive";
-
 
 document.getElementById("E").innerHTML =
   "Variable names should not be JS keywords";
-
-// Chapter no 5
-
-let str1 = "Saleem"
-let str2 = " Raza"
-let str3 = str1.concat(str2)
-console.log(str3);
-
-
-
-
-
-
-  // Cost of one movie ticket is 600 PKR
-  let ticketPrice = 600;
-
-  // Number of tickets to buy
-  let numberOfTickets = 5;
-
-  // Calculate the total cost
-  let totalCost = ticketPrice * numberOfTickets;
-
-  // Output the result
-  console.log(`Cost of one movie ticket is  ${ ticketPrice } `);
-  console.log(`Cost of buying  ${numberOfTickets} tickets to a movie is ${ totalCost} `);
 
   // Chapter no 6
 
